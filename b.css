@@ -38,9 +38,14 @@ a {
   border-radius: 5px;
 }
 
-.navbar_icon {
-  padding-right: 30px;
+.navbar_icons {
+  padding-right: 10px;
   color: white;
+  font-size: 20px;
+}
+
+.navbar_icons i {
+  padding: 15px;
 }
 
 .navbar_home {
