@@ -1,0 +1,51 @@
+:root {
+  --background-color: #b2b0b6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 8px 12px;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+}
+
+.navbar_menu li {
+  padding: 8px 20px;
+  transition: box-shadow 0.3s;
+  line-height: 30px;
+  text-align: center;
+}
+
+.navbar_menu li:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.navbar_icon {
+  padding-right: 30px;
+  color: white;
+}
+
+.navbar_home {
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+  line-height: 35px;
+}
