@@ -44,7 +44,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: sfOFXkxE-0Q_i49SYEhJl7HW79YAkEY0MowPPC6f6Ug
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -57,7 +57,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: sfOFXkxE-0Q_i49SYEhJl7HW79YAkEY0MowPPC6f6Ug
+    id: # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
