@@ -1,8 +1,8 @@
 ---
 title: WSL Ubuntu 24.04 세팅
 date: 2026-05-29 12:32:27 +0900
+last_modified_at: 2026-05-29 17:52:58 +0900
 categories: [etc]
-tags: [환경 세팅]
 ---
 
 WSL을 깔고 나서 우분투 기본 세팅 정리해둔 글입니다. 

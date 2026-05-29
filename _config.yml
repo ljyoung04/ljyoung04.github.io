@@ -57,7 +57,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: sfOFXkxE-0Q_i49SYEhJl7HW79YAkEY0MowPPC6f6Ug
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -216,10 +216,8 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories]
   layouts:
     category: category
-    tag: tag
   permalinks:
-    tag: /tags/:name/
     category: /categories/:name/
