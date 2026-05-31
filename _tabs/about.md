@@ -55,7 +55,7 @@ order: 4
 
 | Award | Organization | Date |
 | --- | --- | --- |
-|  |  |  |
+| 화이트햇 스쿨 우수 프로젝트 | 한국정보기술연구원 | 2025.09.24 |
 
 ## Certifications
 
