@@ -15,12 +15,22 @@ order: 4
     overflow-wrap: anywhere;
     word-break: keep-all;
   }
+
+  a.shimmer:has(> img.about-profile-photo) {
+    background: transparent;
+  }
+
+  a.shimmer:has(> img.about-profile-photo)::before {
+    content: none;
+    animation: none;
+  }
 </style>
 
 <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap; margin-bottom: 2rem;">
   <div style="flex: 0 0 180px;">
     <img
-      src="/assets/img/avatar.png"
+      class="about-profile-photo"
+      src="/assets/img/face.jpg"
       alt="Profile photo"
       style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%;"
     >
