@@ -214,6 +214,7 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  - update_last_modified.py
 
 jekyll-archives:
   enabled: [categories]

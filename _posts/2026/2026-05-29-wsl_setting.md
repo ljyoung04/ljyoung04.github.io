@@ -1,7 +1,7 @@
 ---
 title: WSL Ubuntu 24.04 세팅
 date: 2026-05-29 12:32:27 +0900
-last_modified_at: 2026-05-29 17:52:58 +0900
+last_modified_at: 2026-06-09 13:45:06 +0900
 categories: [etc]
 ---
 
@@ -246,7 +246,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
-)`을 추가해준다.
+)`, `source /home/ljy/.oh-my-zsh/oh-my-zsh.sh`를 추가해준다.
 
 ## 3. Miniconda
 
@@ -311,3 +311,33 @@ EOF
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+
+## 9. codex
+
+```bash
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+```
+
+## 10. Jekyll
+
+```bash
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
+
+```bash
+export GEM_HOME="$HOME/.gems"
+export PATH="$HOME/.gems/bin:$PATH"
+```
+.zshrc에 추가
+이후 `source ~/.zshrc`
+
+```bash
+gem install jekyll bundler
+```
+
+그리고 블로그 루트 디렉토리에서 `bundle install`
+
+```bash
+bundle exec jekyll serve
+```
+잘 작동하면 성공
