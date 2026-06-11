@@ -1,7 +1,6 @@
 ---
 title: syzkaller 설치 및 사용법
-date: 2026-06-09 15:59:41 +0900
-last_modified_at: 2026-06-09 15:59:41 +0900
+date: 2025-09-29 16:44:41 +0900
 categories: [kernel]
 ---
 

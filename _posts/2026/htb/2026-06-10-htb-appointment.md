@@ -1,7 +1,6 @@
 ---
 title: Starting Point - Appointment
-date: 2026-06-10 19:26:16 +0900
-last_modified_at: 2026-06-10 19:26:16 +0900
+date: 2026-03-09 15:06:16 +0900
 categories: [htb]
 ---
 

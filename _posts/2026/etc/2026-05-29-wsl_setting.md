@@ -43,6 +43,8 @@ zstyle ':completion:*' list-colors ${(s.:.)LSCOLORS}
 
 ### 3. starship
 
+starship 설치 전, FiraCode Nerd Font Mono를 설치하고 터미널 설정의 모양에서 해당 폰트로 설정해줘야 깨지지 않는다.
+
 ```bash
 curl -sS https://starship.rs/install.sh | sh
 ```
