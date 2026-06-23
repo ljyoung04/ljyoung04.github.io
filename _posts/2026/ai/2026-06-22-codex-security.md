@@ -1,5 +1,5 @@
 ---
-title: Codex Security 설치
+title: Codex Security
 date: 2026-06-22 20:55:42 +0900
 categories: [ai]
 ---
