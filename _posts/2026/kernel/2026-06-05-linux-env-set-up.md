@@ -51,7 +51,7 @@ cp $PRJ/configs/.clangd $KSRC
 ### 2. 헬퍼 세팅 - $SHARE/compsec/
 
 #### Makefile
-```Makefile
+```makefile
 CFLAGS := -Wall -Wextra -g -static
 LDFLAGS := -lpthread
 
@@ -237,7 +237,8 @@ int main(void)
 ### 3. 헬퍼 세팅 - $SHARE/compsec/helper/
 
 #### Makefile
-```Makefile
+
+```makefile
 ifndef KOBJ
 $(error KOBJ is not set. Run envsetup.sh first)
 endif
