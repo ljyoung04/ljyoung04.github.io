@@ -27,6 +27,7 @@ sudo apt update && sudo apt install bear -y
 
 #build guest kernel
 wget -qO- https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.71.tar.xz | tar xJf - -C kernels/
+SRC=linux-6.12.71 OBJ=debug source scripts/envsetup.sh
 cp $CONFIGS/kernelctf.config $KOBJ/.config
 make -C $KSRC O=$KOBJ olddefconfig
 make -C $KSRC O=$KOBJ -j$(nproc)
