@@ -50,7 +50,7 @@ order: 4
 - Programming
     - C, Python
 - Vulnerability Research
-    - Pwnable, Web, Linux Kernel
+    - Pwnable, Linux Kernel
 
 
 ## Study
