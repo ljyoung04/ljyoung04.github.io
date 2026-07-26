@@ -102,7 +102,7 @@ swapon /dev/nvme1n1p2
 ## 7. 기본 시스템 설치
 
 ```bash
-pacstrap /mnt base linux linux-firmware sof-firmware base-devel grub efibootmgr nano networkmanager
+pacstrap /mnt base linux linux-firmware sof-firmware base-devel grub efibootmgr nano networkmanager os-prober
 ```
 
 ## 8. fstab 생성
@@ -155,6 +155,13 @@ umount -a
 reboot
 ```
 
-## 13 설치된 운영체제에 접속
+## 13. 설치된 운영체제에 접속
 
 재부팅 하면 grub 부트로더 화면이 뜰텐데 방향키로 조절해서 아치 리눅스를 선택해서 부팅하면 된다.
+
+## 14. 멀티부팅 세팅
+
+```bash
+sudo nano /usr/bin/grub-mkconfig # GRUB_DISABLE_OS_PROBER 찾아서 false로 변경 후 저장
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
