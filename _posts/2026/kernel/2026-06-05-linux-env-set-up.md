@@ -14,7 +14,7 @@ cd linux-env
 
 docker compose up -d
 
-docker compose sec -u compsec kernel-dev bash
+docker compose exec -u compsec kernel-dev bash
 ```
 
 ## 2. 세팅
