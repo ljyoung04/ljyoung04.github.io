@@ -69,6 +69,7 @@ order: 4
 | CVE | Description | Link |
 | --- | --- | --- |
 | CVE-2025-6218 | RARLAB WinRAR Directory Traversal Remote Code Execution Vulnerability | [ZDI-25-409](https://www.zerodayinitiative.com/advisories/ZDI-25-409/) |
+| CVE-2026-62292 | libheif Out-of-Bounds Read via Integer Overflow | [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-62292)
 
 ## Awards
 
