@@ -33,6 +33,7 @@ def build_post(title: str, now: datetime) -> tuple[Path, str]:
     content = f"""---
 title: {post_path.stem}
 date: {date}
+description:
 categories: []
 ---
 """
